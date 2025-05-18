@@ -1,0 +1,6 @@
+body{
+	background-image: url("assets/FON4.png");
+    background-size: cover; /* Масштабируем изображение, чтобы заполнить контейнер */
+    background-position: 0px 0px;
+    background-repeat: no-repeat; /* Не повторяем изображение */
+}

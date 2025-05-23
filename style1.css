@@ -2,8 +2,11 @@
 		scroll-behavior: smooth;
 	}
         body {
-	font-family: Arial;
+	font-family: Calibri;
         }
+
+/*
+*/
 
 .bodyFont {
 background-image: url("https://m-dekor.by/catalog/2365/main.webp");
@@ -33,7 +36,7 @@ background-image: url("https://m-dekor.by/catalog/2365/main.webp");
 }
 
 .logoLine table {
-	background-color: lime;
+	background-color: darkviolet;
 	border: 7px solid black;
 	border-radius: 50px;
 	font-size: 0px;
@@ -73,7 +76,7 @@ background-image: url("https://m-dekor.by/catalog/2365/main.webp");
     background: linear-gradient(to bottom left, violet, black);
     width: 200px;
     height: 300px;
-	margin-left: 0px;
+	margin-left: 250px;
 	margin-top: 100px;
     border: 1px solid black;
     border-radius: 11px;
@@ -241,6 +244,52 @@ background-image: url("https://m-dekor.by/catalog/2365/main.webp");
 
 
 /* Misc	*/
+
+.divcastom p {
+	font-style: italic;
+	color: blue
+}
+
+.divcastom b {
+	font-style: normal;
+	color: black
+}
+
+.divcastom3 p {
+	font-style: italic;
+	color: blue
+}
+
+.divcastom3 b {
+	font-style: normal;
+	color: darkred
+}
+
+.ulcastom2 b {
+	font-style: italic;
+	color: blue
+}
+
+.ulcastom ul {
+	font-style: italic;
+	color: blue
+}
+
+.probel {
+	color: red
+}
+
+.GText {
+font-size: 150%;
+color: darkred;
+text-decoration: underline;
+}
+
+.GText2 {
+color: darkred;
+text-decoration: underline;
+}
+
 .buttonL {
 	background: linear-gradient(to bottom left, orange, darkviolet);
 	width: 90px;
@@ -320,13 +369,13 @@ article {
 
 @keyframes lineMenuColor {
 	0% { 
-		background-color: lime;
+		background-color: darkviolet;
 	}
 	40% {
 		background-color: pink
 	}
 	100% {
-		background-color: lime
+		background-color: darkviolet;
 	}
 }
 @keyframes lineMenuColor1 {
@@ -446,7 +495,7 @@ a:hover {
 	}
 	
 	.invisibleText:hover {
-		color: black;
+		color: green;
 	}
 /*
 .img1 {
